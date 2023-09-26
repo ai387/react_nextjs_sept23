@@ -1,4 +1,16 @@
 /* homepage route of the app */
+
+/* data fetching
+1 - server side rendering SSR; fetches data but doesn't caches it
+2 - static side generation SSG; fetches data and cache it
+3 - incremental static gerneration ISR; fetches data, caches it for a short time, then it is refreshed
+
+imporving SEO
+export const metadata = {
+  title: "Home"
+}
+*/
+
 import Image from 'next/image'
 
 export default function Home() { /* rendered as server side component */

@@ -1,11 +1,9 @@
 import React from 'react'
 
-// rendered at /posts
-
 const page = () => {
-    return (
-        <div>POSTS</div>
-    )
+  return (
+    <div>{postId}</div>
+  )
 }
 
 export default page
